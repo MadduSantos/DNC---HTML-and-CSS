@@ -1,0 +1,50 @@
+<h1>Meu Formulário</h1>
+<form action="https://formspree.io/f/mwkygqvw" method="POST">
+    <p>
+        <label>Digite seu nome</label><br>
+        <input placeholder="Digite sua idade" type="text" required="required" value="Brasília" name="nome"></input>
+    </p>
+
+    <p>
+        <label>Digite sua mensagem</label><br>
+        <textarea rows="10" cols="30" placeholder="Digite algo..." required="required" name="mensagem">Mensagem</textarea>
+    </p>  
+
+    <p>
+        <label>Escolha os esportes que prática</label><br>
+
+        <ul>
+            <li><input value="SIM" name="Box" type="checkbox">Box</li>
+            <li><input value="SIM" name="Muay Thai" type="checkbox">Muay Thai</li>
+            <li><input value="SIM" name="Natação" type="checkbox">Natação</li>
+        
+        </ul>
+        
+    </p>
+
+    <p>
+        <label>Escolha sua cor favorita entre as opções:</label><br>
+        <ul>
+            <li><input value="VERMELHO" name="cor favorita" type="radio">Vermelho</li>
+            <li><input value="AZUL" name="cor favorita" type="radio">Azul</li> 
+            <li><input value="PRETO" name="cor favorita" type="radio">Preto</li> 
+        </ul>
+    </p>
+
+    <P>
+        <label>Selecione seu Estado</label><br>
+        <select>
+            <option>Brasília</option>
+            <option>São Paulo</option>
+            <option>Rio de Janeiro</option>
+            <option>Minas Gerais</option>
+        </select>
+    </P>
+     
+    <P>
+        <input value="SIM" name="termosdecontrato" required type="checkbox">Eu aceito compartilhar os meus dados</input>
+        
+    </P>
+        <button type="submit">Enviar e Salvar</button>
+
+</form>
