@@ -1,0 +1,57 @@
+#header {
+    background-color: rgb(242, 196, 179);
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-family: 'Hubballi', cursive; 
+    text-transform: uppercase;         
+    
+}
+
+#nameAndTitle {
+    background-color: white;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#nameAndTitle h1, h2 {
+    margin:0;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+#contact {
+    list-style-type: none;
+}
+
+#contact i {
+    width: 30px;
+    color:rgb(242, 196, 179);
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 30% auto;
+    column-gap: 20px;
+}
+
+#sidebar, #content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.card h3 {
+    font-family: 'Hubballi', cursive;
+}
+
+.card {
+    font-family: Montserrat;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgb(214, 209, 209)
+                        
+}
